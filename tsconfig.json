@@ -5,7 +5,9 @@
         "module": "NodeNext",
         "moduleResolution": "nodenext",
         "noEmitOnError": true,
-        "noImplicitAny": true
+        "noImplicitAny": true,
+        "removeComments": true,
+        "strictNullChecks": true
     },
     "include": ["app/**/*"]
 }
