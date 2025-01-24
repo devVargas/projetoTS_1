@@ -1,9 +1,9 @@
-export class Negociacaoes {
+export class Negociacoes {
     negociacoes = [];
     adiciona(negociacao) {
         this.negociacoes.push(negociacao);
     }
-    list() {
+    lista() {
         return this.negociacoes;
     }
 }

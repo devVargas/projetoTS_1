@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "outDir": "./dist",
+        "outDir": "app/dist/js",
         "target": "ES2022",
         "module": "NodeNext",
         "moduleResolution": "nodenext",
@@ -9,5 +9,5 @@
         "removeComments": true,
         "strictNullChecks": true
     },
-    "include": ["app/**/*"]
+    "include": ["app/src/**/*"]
 }
