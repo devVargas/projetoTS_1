@@ -1,13 +1,12 @@
 {
     "compilerOptions": {
         "outDir": "app/dist/js",
-        "target": "ES2022",
-        "module": "NodeNext",
-        "moduleResolution": "nodenext",
+        "target": "ES6",
         "noEmitOnError": true,
         "noImplicitAny": true,
         "removeComments": true,
-        "strictNullChecks": true
+        "strictNullChecks": true,
+        "experimentalDecorators": true
     },
     "include": ["app/src/**/*"]
 }
