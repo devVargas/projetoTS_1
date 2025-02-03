@@ -14,8 +14,8 @@ if (form) {
 const botaoImporta = document.querySelector('#botao-importa');
 if (botaoImporta) {
     botaoImporta.addEventListener('click', () => {
-        controller.importarDados();
+        controller.importaDados();
     });
 } else {
-    throw Error('Botão de importação não foi encontrado.');
+    throw Error('Botão importa não foi encontrado');
 }
